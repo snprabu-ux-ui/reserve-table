@@ -1,3 +1,5 @@
+import Herobannerimage from '../assets/banner-image.jpg';
+
 const Herosection = () => {
     return(
         <div className="herobanner-container">
@@ -13,6 +15,11 @@ const Herosection = () => {
                         Herobanner description Herobanner description Herobanner description Herobanner description Herobanner description Herobanner description Herobanner description Herobanner description 
                     </p>
                     <a className="default-btn" href="http://www.little-lemon.com">Reserve a table</a>
+                </div>
+                <div className="herobanner-image">
+                    <div className='image-container'>
+                        <img src={Herobannerimage} alt="banner" />
+                    </div>
                 </div>
             </div>
         </div>

@@ -6,22 +6,22 @@ const Header = () => {
     <header className="App-header">
       <img src={logo} className="App-logo" alt="logo" />
       <nav>
-        <Link to="/" style={{ margin: "0 10px" }}>
+        <Link to="/">
           Home
         </Link>
-        <Link to="/about" style={{ margin: "0 10px" }}>
+        <Link to="/about">
           About
         </Link>
-        <Link to="/menu" style={{ margin: "0 10px" }}>
+        <Link to="/menu">
           Menu
         </Link>
-        <Link to="/reservations" style={{ margin: "0 10px" }}>
+        <Link to="/reservations">
           Resarvations
         </Link>
-        <Link to="/order" style={{ margin: "0 10px" }}>
+        <Link to="/order">
           Order
         </Link>
-        <Link to="/login" style={{ margin: "0 10px" }}>
+        <Link to="/login">
           Login
         </Link>
       </nav>
